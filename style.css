@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ff1d58;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 8rem;
+    color: white;
+}
+
+.input-date {
+    background-color: #fff685;
+    box-shadow: 0 0.8em 1.25em rgba(0, 0, 0, 0.2);
+    padding: 2.5em 1.5em;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+
+.input-date button {
+    background: #ff1d58;
+    cursor: pointer;
+}
+input {
+    padding: 1em 1em;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+#date-input {
+    border: none;
+}
+
+#calculate-btn {
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+}
+
+.desc-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desc-wrap div {
+    height: 5.5em;
+    width: 5.5em;
+    background: #fff685;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    padding: 1.3em 1em;
+    box-shadow: 0 0.8em 1.25em rgba(0, 0, 0, 0.2);
+}
+
+span {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+p {
+    font-size: 0.9em;
+    color: #3d3d3d;
+    margin-top: 5px;
+}
